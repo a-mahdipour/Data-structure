@@ -11,24 +11,25 @@ add, shift, move, and delete elements
 
 ```
 ## defining a list
->>> list1 = ['abc', 3.56, -10, 2*pi]
+list1 = ['abc', 3.56, -10, 2*pi]
 
 ## add an object
->>> list1.append("new")
->>> 
+list1.append("new")
+
 ## delete the first item
->>> list1.pop(1)
+list1.pop(1)
 
 ## permute i-th and j-th items
->>> a=list1[i-1]
->>> b=list1[j-1]
->>> list1[i-1], list[j-1] = b,a
+a=list1[i-1]
+b=list1[j-1]
+list1[i-1], list[j-1] = b,a
 
 ## defining an array as an special case of lists:
->>> array = [-2,45,12,-7,0,31]
+array = [-2,45,12,-7,0,31]
 
 ## move elements
->>> [*list1, list1.pop(0)]
+[*list1, list1.pop(0)]
+print(list1)
 ```
 
 -----
@@ -38,18 +39,18 @@ Queues are linear data structures that work based on first-in-first-out order in
 ```
 from collections import deque
 ## defining a queue
->>> qu = deque()
->>> 
+qu = deque()
+ 
 ## Adding elements to a queue
->>> qu.append('element1')
->>> qu.append('element2')
->>> qu.append('element3')
->>> print("Updated queue:")
->>> print(qu)
+qu.append('element1')
+qu.append('element2')
+qu.append('element3')
+print("Updated queue:")
+print(qu)
 
 ## Deleting elements 
->>> print(qu.popleft())
->>> print(qu.popright())
+print(qu.popleft())
+print(qu.popright())
 ```
 
 -----
