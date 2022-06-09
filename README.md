@@ -1,8 +1,7 @@
-# Data-structure
-Python-based Data Structures:
+# Data-structure (Python-based)
 
-There are several data sctructures in Python -similar to other programming languages-- and we briefly go through them in bellow.
-Lists, sets and tuples are the basic strutures in Python and more complicated structures are dictionaries, maps, hash tables, trees and graphs. Divers data structures differ in 
+##*There are several data sctructures in Python -similar to other programming languages-- and we briefly go through them in bellow.
+Lists, sets and tuples are the basic strutures in Python and more complicated structures are dictionaries, maps, hash tables, trees and graphs*
 -----
 ## 1. Lists (arrays)
 
@@ -10,7 +9,7 @@ In Python, a list is an ordered collection of objects that can have different ty
 
 add, shift, move, and delete elements
 
-"""
+```
 ## defining a list
 >>> list1 = ['abc', 3.56, -10, 2*pi]
 
@@ -30,13 +29,13 @@ add, shift, move, and delete elements
 
 ## move elements
 >>> [*list1, list1.pop(0)]
-"""
+```
 
 -----
 ## 2. Queue
-Queues are linear data structures that work based on first-in-first-out order in which items are not accessible via their indexes. In a queue we only can pull out the oldest item added which makes this objects very useful for those tasks that are desinged based on the porder of attendence (e.g. lines in grocery shops). '''append()''' and '''pop()''' are used to resp. add and remove the newest and oldest elements to the queue. Using Python's collection module, provides the possibility of accesss to both sides of the queue (a double-ended queue) using '''popleft()''' and '''popright()'''.
+Queues are linear data structures that work based on first-in-first-out order in which items are not accessible via their indexes. In a queue we only can pull out the oldest item added which makes this objects very useful for those tasks that are desinged based on the porder of attendence (e.g. lines in grocery shops). ```append()``` and ```pop()``` are used to resp. add and remove the newest and oldest elements to the queue. Using Python's collection module, provides the possibility of accesss to both sides of the queue (a double-ended queue) using ```popleft()``` and ```popright()```.
 
-'''
+```
 from collections import deque
 ## defining a queue
 >>> qu = deque()
@@ -51,7 +50,7 @@ from collections import deque
 ## Deleting elements 
 >>> print(qu.popleft())
 >>> print(qu.popright())
-'''
+```
 
 -----
 ## 3. Tuples 
