@@ -2,7 +2,6 @@
 Python-based Data Structures:
 
 There are several data sctructures in Python -similar to other programming languages-- and we briefly go through them in bellow.
-
 Lists, sets and tuples are the basic strutures in Python and more complicated structures are dictionaries, maps, hash tables, trees and graphs. Divers data structures differ in 
 -----
 ## 1. Lists (arrays)
@@ -11,7 +10,7 @@ In Python, a list is an ordered collection of objects that can have different ty
 
 add, shift, move, and delete elements
 
-'''
+"""
 ## defining a list
 >>> list1 = ['abc', 3.56, -10, 2*pi]
 
@@ -31,7 +30,7 @@ add, shift, move, and delete elements
 
 ## move elements
 >>> [*list1, list1.pop(0)]
-'''
+"""
 
 -----
 ## 2. Queue
