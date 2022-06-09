@@ -1,6 +1,6 @@
 # Data-structure (Python-based)
 
-##*There are several data sctructures in Python -similar to other programming languages-- and we briefly go through them in bellow.
+## *There are several data sctructures in Python -similar to other programming languages-- and we briefly go through them in bellow.
 Lists, sets and tuples are the basic strutures in Python and more complicated structures are dictionaries, maps, hash tables, trees and graphs*
 -----
 ## 1. Lists (arrays)
