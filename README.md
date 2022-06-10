@@ -1,13 +1,24 @@
 # Data-structure (Python-based)
 
-*There are several data sctructures in Python, similar to other programming languages, and we briefly go through them in bellow.
-Lists, sets and tuples are the basic strutures in Python and more complicated structures are dictionaries, maps, hash tables, trees and graphs*
+*There are several data sctructures in Python, similar to other programming languages such as R, Java, C++ and so on.  In here, we briefly go through them and investigate their similarities and differences as Python objects. We mayn also see their association/dissimilarities with similar data stuctures in other programming languages.*
 -----
 ## 1. Lists (arrays)
 
-In Python, a list is an ordered collection of objects that can have different types (lists are nested). The order in lists provides unique indexes for each element which remains unchanged. lists/arrays are mutable. There exists no built-in array in Python and are basically those lists that have homogenous elements of the same type. In contrast with Java, Python's lists/arrays are not static and can be automatically scaled up/down.
+In general, arrays are contiguous data structures of homogeneous elements (of the same data type) which are located in adjacent chunks of memory with specific assigned indexes (elements are ordered) that can be easily manipulated. Arrays, however, are not built-in data structures in python and need to be declared via either **array** or **NumPy** modules. Arrays acquire constant size that remain unchanged. Arrays are mutable data structures and are usually suitable for large data.
 
-add, shift, move, and delete elements
+
+```
+
+## Using array module
+import array
+array1 = array.array(['a','ab','c','d'])
+
+## Using NumPy to generate a numpy array:
+import numpy as np
+array2 = np.array(['a','ab','c','d'])
+```
+
+In Python, a list is an ordered collection of objects that can have different types (lists are nested: can contain heterogeneous elements). The order in lists provides unique indexes for each element which remains unchanged. Lists and arrays are both mutable and in contrast with that of in Java, Python's lists are not static and can be automatically scaled up/down. Lists are more suitable to store small amount of data and cannot be used directly by many operations. Some operations to be used for lists are listed in bellow. 
 
 ```
 ## defining a list
